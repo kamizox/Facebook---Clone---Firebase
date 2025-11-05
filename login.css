@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+ 
+    background-color: #F0F2F5; 
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: flex-start; 
+    min-height: 100vh;
+    padding-top: 72px; 
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    width: 980px; 
+}
+
+
+.header {
+    width: 500px;
+    padding-top: 100px; 
+}
+
+.header h1 {
+    color: #0866FF; 
+    font-size: 58px;
+    margin: 0 0 10px 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+}
+
+.header h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #1c1e21;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+}
+
+
+.login {
+    width: 400px; 
+}
+
+.login-form {
+    width: 396px;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 15px 15px 20px 15px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-top: 0;
+}
+
+.InpBox {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 0; 
+    gap: 12px; 
+    margin-bottom: 12px;
+}
+
+
+.InpEmail, .InpPass {
+    height: 52px; 
+    width: 100%; 
+    border-radius: 6px; 
+    border: 1px solid #dddfe2; 
+    padding: 0 16px;
+    font-size: 17px;
+    box-sizing: border-box; 
+}
+
+.InpEmail:focus, .InpPass:focus {
+    border-color: #1877F2;
+    box-shadow: 0 0 0 1px #1877F2;
+    outline: none;
+}
+
+.loginbtn {
+    height: 48px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    background-color: #0866FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-form a {
+    color: #1877F2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    height: 1px;
+    background-color: #dadde1;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.createNewAccbtn {
+    height: 48px;
+    width: 210px;
+    border-radius: 6px;
+    border: none;
+    background-color: #42B72A; 
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.login div:last-child {
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login div:last-child p {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.login div:last-child b {
+    cursor: pointer;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
